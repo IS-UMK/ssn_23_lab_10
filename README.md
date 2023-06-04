@@ -9,6 +9,12 @@ Notatnik: [cnn2.ipynb](https://github.com/IS-UMK/ssn_23_lab_10/blob/master/cnn2.
 
 ## Zad. 10 Klasyfikacja psów i kotów
 
+Zbuduj jak najlepszy model klasyfikacji dla zbioru danych kotów i psów wykorzystując transfer learning oraz rozszerzanie danych:
+*  w roli ekstraktora cech wybierz dowolny model wytrenowany na danych ImageNet. <br> Lista modeli dostępnych w Keras znajduje się tu [Model ZOO](https://keras.io/api/applications/). 
+* na wyjściu ekstraktora cech dodaj jedną warstwę w pełni połączoną (gęstą) zawierającą minimum 200 jednostek `relu` oraz warstwę regularyzacyjną Dropout a następnie wyjście sieci z jednym neuronem i funkcją aktywacji ``sigmoid`` (klasyfikacja binarna).
+* przeprowadź precess douczania trwający co najmniej 10 epok z wykorzystaniem rozszerzania zbioru danych poprzez automatyczne generowane transformacje obrazu
+* wyrysuj przebieg funkcji kosztu oraz poprawności klasyfikacji na zbiorze treningowym i walidacyjnym 
+  
 
 Rozwiązanie w postaci notatnika Jupyter (``.ipynb``) lub skrypt w języku Python (``.py``) umieść w Moodle lub prześlij do repozytorium GitHub.
 
